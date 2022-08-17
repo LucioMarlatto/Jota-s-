@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo-icon.png">
+    <title>Jota´s</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d78cb1c4f2.js" crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-center">
+                <img src="../images/logo.svg" style="cursor: pointer" onclick="location.href='../index.html'">
+            </div>
+        </nav>
+    </header>
+    <!-- end of navbar -->
+    <main>
+        <section>
+            <div class="form-layout">
+                <h1 style="margin: 1.5rem 0">Finalizar compra</h1>
+            </div>
+            <form class="checkout-form form" id="form">
+                <div class="form-layout">
+                    <!-- personal info -->
+                    <div>
+                        <h2 class="checkout-subtitle">Datos personales</h2>
+                        <div class="form-control">
+                            <label for="email">Correo*</label>
+                            <input type="email" name="email" id="email" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="firstname">Nombre*</label>
+                            <input type="text" name="firstname" id="firstname" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="lastname">Apellido*</label>
+                            <input type="text" name="lastname" id="lastname" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="dni">DNI*</label>
+                            <input type="tel" name="dni" placeholder="99999999" maxlength="8" id="dni" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div>
+                            <div class="form-control">
+                                <label for="phone">Celular*</label>
+                                <div class="flex">
+                                    <span style="margin-right: 0.5rem">15</span>
+                                    <input type="tel" name="phone" maxlength="10" id="phone" class="input" required>
+                                </div>
+                                <i class="fa-regular fa-circle-check"></i>
+                                <i class="fa-regular fa-circle-xmark"></i>
+                                <small>Error message</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of personal info -->
+                    <!-- shipping info -->
+                    <div>
+                        <h2 class="checkout-subtitle">Envío</h2>
+                        <div class="form-control">
+                            <label for="street">Calle*</label>
+                            <input type="text" name="street" id="street" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="number">Número*</label>
+                            <input type="text" name="number" maxlength="5" id="number" class="input" required>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div>
+                            <input type="radio" name="extra" id="house" value="house" checked>
+                            <label for="house">Casa</label>
+                            <input type="radio" name="extra" id="flat" value="flat">
+                            <label for="flat">Depto</label>
+                            <div class="info-extra" style="margin-top: 0.75rem">
+    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of shipping info -->
+                </div>
+                <!-- checkout info -->
+                <div class="cart-summary">
+                    <h2 class="checkout-subtitle">Resumen de la compra</h2>
+                    <div class="checkout-info">
+
+                    </div>
+                    <h3 style="margin-bottom: 1.5rem">Total: $<span class="checkout-total">0</span></h3>
+                    <button type="submit" class="banner-btn">Ir a Pagar</button>
+                </div>
+                <!-- end of checkout info -->
+            </form>
+        </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/checkout.js"></script>
+</body>
+</html>
