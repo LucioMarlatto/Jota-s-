@@ -3,55 +3,55 @@
         "id": 1, 
         "title": "Nike Zion 2", 
         "price": 800, 
-        "image": "/images/NikeZion2.png"
+        "image": "./images/NikeZion2.png"
     },
 
     {
         "id": 2, 
         "title": "Nike Air Max 97", 
         "price": 400, 
-        "image": "/images/NikeAirMax97.png"
+        "image": "./images/NikeAirMax97.png"
     },
 
     {
         "id": 3, 
         "title": "Nike Air Max Plus", 
         "price": 400, 
-        "image": "/images/NikeAirMaxPlus.png"
+        "image": "./images/NikeAirMaxPlus.png"
     },
 
     {
         "id": 4, 
         "title": "Nike Air Force 1", 
         "price": 600, 
-        "image": "/images/NikeAirForce1.png"
+        "image": "./images/NikeAirForce1.png"
     },
 
     {
         "id": 5, 
         "title": "Nike Air Max 1 ´07", 
         "price": 800, 
-        "image": "/images/NikeAirForce1´07.png"
+        "image": "./images/NikeAirForce1´07.png"
     },
 
     {
         "id": 6, 
         "title": "Nike AirMax 90 G", 
         "price": 800, 
-        "image": "/images/NikeAirMax90G.png"
+        "image": "./images/NikeAirMax90G.png"
     },
 
     {
         "id": 7, 
         "title": "Nike Huarache", 
         "price": 600, 
-        "image": "/images/NikeHuarache.png"
+        "image": "./images/NikeHuarache.png"
     },
 
     {
         "id": 8, 
         "title": "Nike Air Max Genome", 
         "price": 600, 
-        "image": "/images/NikeAirMaxGenome.png"
+        "image": "./images/NikeAirMaxGenome.png"
     }
 ]
