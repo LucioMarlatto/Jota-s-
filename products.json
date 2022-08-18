@@ -45,13 +45,13 @@
         "id": 7, 
         "title": "Nike Huarache", 
         "price": 600, 
-        "image": "images/NikeHuarache.png"
+        "image": "../images/NikeHuarache.png"
     },
 
     {
         "id": 8, 
         "title": "Nike Air Max Genome", 
         "price": 600, 
-        "image": "images/NikeAirMaxGenome.png"
+        "image": "./images/NikeAirMaxGenome.png"
     }
 ]
